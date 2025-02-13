@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../UI/Button";
 
 const Header = () => {
   return (
@@ -14,9 +15,7 @@ const Header = () => {
         <p>About Us</p>
       </div>
       <div className="flex flex-row space-x-4">
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-lg">
-          Login →
-        </button>
+        <Button text={"Login →"} styles={"bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 "}/>
       </div>
     </div>
   );
